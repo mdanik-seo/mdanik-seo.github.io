@@ -26,7 +26,7 @@ Google Search Console, Google Analytics 4, Google Business Profile, Ahrefs, SEMr
 
 ## Contact
 
-- Free SEO audit: [WhatsApp](https://wa.me/8801410379041)
+- Free SEO audit: [WhatsApp](https://wa.me/8801575210841)
 - Email: iammdanik.seo@gmail.com
 - LinkedIn: [linkedin.com/in/md-anik-seo](https://www.linkedin.com/in/md-anik-seo/)
 - Client reviews: [Fiverr](https://www.fiverr.com/s/7jvxr3b)
