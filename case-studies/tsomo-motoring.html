@@ -225,5 +225,17 @@ figure.shot figcaption{font-family:var(--display);font-size:.82rem;color:var(--m
   </div>
 </footer>
 </main>
+<script>
+/* Desktop: open WhatsApp Web chat directly instead of the wa.me landing page */
+(function(){
+  if(/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent))return;
+  document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function(a){
+    try{
+      var u=new URL(a.href),phone=u.pathname.replace(/\D/g,""),text=u.searchParams.get("text");
+      a.href="https://web.whatsapp.com/send?phone="+phone+(text?"&text="+encodeURIComponent(text):"");
+    }catch(e){}
+  });
+})();
+</script>
 </body>
 </html>

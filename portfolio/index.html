@@ -407,5 +407,17 @@ footer{padding:2rem 0 5rem;color:var(--muted);font-size:.9rem;font-family:"Brico
   window.addEventListener("scroll",update,{passive:true});window.addEventListener("resize",update);update();
 })();
 </script>
+<script>
+/* Desktop: open WhatsApp Web chat directly instead of the wa.me landing page */
+(function(){
+  if(/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent))return;
+  document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function(a){
+    try{
+      var u=new URL(a.href),phone=u.pathname.replace(/\D/g,""),text=u.searchParams.get("text");
+      a.href="https://web.whatsapp.com/send?phone="+phone+(text?"&text="+encodeURIComponent(text):"");
+    }catch(e){}
+  });
+})();
+</script>
 </body>
 </html>
