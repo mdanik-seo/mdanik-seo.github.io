@@ -17,6 +17,7 @@ I help businesses get found everywhere people search: Google, the local map pack
 | Project | Type | Result |
 | --- | --- | --- |
 | [Tsomo Motoring](https://mdanik-seo.github.io/case-studies/tsomo-motoring.html) | Local SEO, UK driving school | Revenue grew 5x, from $3K to $15K |
+| [Strong Spine and Body](https://mdanik-seo.github.io/case-studies/strong-spine-and-body.html) | Local SEO, US chiropractic clinic, ongoing | 302.7K monthly searches mapped, 186 five-star reviews |
 | [Coach Man Tahoe](https://mdanik-seo.github.io/case-studies/coach-man-tahoe.html) | Local SEO, ongoing | 7.04K clicks and 264K impressions in 3 months |
 | [Hotel Fauchère](https://mdanik-seo.github.io/case-studies/hotel-fauchere.html) | Hotel SEO, ongoing | 6.03K clicks at a 5.2% CTR in 3 months |
 
